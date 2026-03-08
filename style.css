@@ -1,0 +1,110 @@
+body {
+    background-image: url("imgs/cats-bg.jpg")
+}
+
+h1 {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 400%;
+    color: blue;
+    text-decoration: underline overline dotted orange 10px;
+}
+
+.stroke-txt {
+    -webkit-text-stroke: 5px aqua;
+    paint-order: stroke fill;
+}
+
+h2 {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 200%;
+    color: blueviolet;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+ul li {
+    background: aqua;
+    color: magenta;
+    padding: 10px;
+    margin: 2px;
+    font-size: larger;
+    border: magenta 2px ridge;
+}
+
+li::before {
+    content: "🐱 ";
+}
+
+.top{
+    border: 10px red dashed;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    font-family: "Indie Flower", cursive;
+    background-image: url("imgs/sha.jpg");
+    background-position: center;
+}
+
+.main-content {
+    border: 10px greenyellow double;
+    padding: 20px;
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    background-image: url("imgs/");
+    background: linear-gradient(to left, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blueviolet;
+    padding:10px;
+    border: 10px magenta dotted;
+}
+
+.gal-img {
+    border: 5px greenyellow dashed;
+    padding: 5px;
+    margin: 5px;
+    align-content: center;
+}
+
+.section-title {
+    background-color: greenyellow;
+    width: 100%;
+    border: 5px blueviolet dotted;
+    text-align: center;
+}
+
+.paragraphs {
+    color: magenta;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.ads {
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+.leftimg {
+    float: left;
+    margin: 40px;
+}
+
+.rightimg {
+    float: right;
+    margin: 40px;
+}
